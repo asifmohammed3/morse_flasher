@@ -77,7 +77,7 @@ class _MyAppState extends State<MyApp> {
       time > 0 ? torchon() : 1;
       sleep(Duration(milliseconds: time));
       torchoff();
-      sleep(Duration(milliseconds: 150));
+      sleep(const Duration(milliseconds: 150));
     }
   }
 
@@ -86,8 +86,8 @@ class _MyAppState extends State<MyApp> {
     return Scaffold(
       backgroundColor: Colors.deepPurple[50],
       appBar: AppBar(
-        leading: Icon(Icons.menu),
-        title: Text("Morse Flasher"),
+        leading: const Icon(Icons.menu),
+        title: const Text("Morse Flasher"),
         centerTitle: true,
         backgroundColor: Colors.deepPurple[450],
       ),
@@ -100,7 +100,7 @@ class _MyAppState extends State<MyApp> {
                 height: 20,
               ),
               Padding(
-                padding: EdgeInsets.all(8),
+                padding: const EdgeInsets.all(8),
                 child: TextField(
                   controller: controller,
                   decoration: InputDecoration(
@@ -118,7 +118,7 @@ class _MyAppState extends State<MyApp> {
               ),
               Center(
                 child: Padding(
-                  padding: EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(10),
                   child: Container(
                     width: MediaQuery.of(context).size.width,
                     decoration: const BoxDecoration(
@@ -141,12 +141,13 @@ class _MyAppState extends State<MyApp> {
                 ),
               ),
               ElevatedButton(
-                  onPressed: () {
-                    encoder();
-                    lit();
-                    displayMorse();
-                  },
-                  child: Text("Give the morse signal"))
+                onPressed: () {
+                  encoder();
+                  displayMorse();
+                  lit();
+                },
+                child: const Text("Give the morse signal"),
+              ),
             ],
           ),
         ),
