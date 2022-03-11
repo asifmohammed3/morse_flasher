@@ -13,7 +13,7 @@ Here we used a simple package named [_torch_light_](https://pub.dev/packages/tor
 Flutter / 70
 
 ## Link to product walkthrough
-[link to video]
+[https://bit.ly/3CAs0Cg]
 
 ## How it Works ?
 1. Install the Apk file from [**here**](https://drive.google.com/file/d/1d3tUtV_4_og5fXIi_lLQ5-Pk2LP4yprV/view?usp=sharing)
