@@ -1,5 +1,6 @@
 # Morse Flasher
-Long Description about project. This project do that. This project is awesome...
+This is a project named Morse Flasher which converts any text or number to its corresponding morse code.
+[Morse code](https://en.wikipedia.org/wiki/Morse_code) is a method used in telecommunication to encode text characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs.
 
 ## Team members
 1. Mohammed Asif [https://github.com/asifmohammed3]
@@ -16,7 +17,7 @@ Flutter / 70
 2. Step 2
 
 ## Libraries used
-Library Name - Version
+torch_light - 0.4.0
 
 ## How to configure
 Instructions for setting up project
