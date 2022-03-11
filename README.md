@@ -1,12 +1,12 @@
-# Project Name
+# Morse Flasher
 Long Description about project. This project do that. This project is awesome...
 
 ## Team members
-1. Name [Embed personal github URL]
-2. Name [Embed perosnal github URL]
+1. Mohammed Asif [Embed personal github URL]
+2. AMAN ZISHAN [Embed perosnal github URL]
 
 ## Team Id
-Team id here
+Flutter / 70
 
 ## Link to product walkthrough
 [link to video]
