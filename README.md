@@ -2,7 +2,7 @@
 Long Description about project. This project do that. This project is awesome...
 
 ## Team members
-1. Mohammed Asif [Embed personal github URL]
+1. Mohammed Asif [https://github.com/asifmohammed3]
 2. AMAN ZISHAN [Embed perosnal github URL]
 
 ## Team Id
