@@ -32,7 +32,17 @@ Map mapper = {
   'x': '-..-',
   'y': '-.--',
   'z': '--..',
-  ' ': '     '
+  ' ': '     ',
+  '1': '.----',
+  '2': '..---',
+  '3': '...--',
+  '4': '....-',
+  '5': '.....',
+  '6': '-....',
+  '7': '--...',
+  '8': '---..',
+  '9': '----.',
+  '0': '-----',
 };
 void main() {
   runApp(MaterialApp(
@@ -128,7 +138,11 @@ class _MyAppState extends State<MyApp> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
-                          const Text("The Encoded morse signal will show here"),
+                          const Padding(
+                            padding: EdgeInsets.all(8.0),
+                            child:
+                                Text("The Encoded morse signal will show here"),
+                          ),
                           Text(
                             displayMorse(),
                             style: const TextStyle(
